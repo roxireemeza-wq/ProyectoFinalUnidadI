@@ -1,0 +1,134 @@
+
+.parrafo p {
+  font-family: 'Cambria', Georgia, serif;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: #000000;
+}
+
+.col-md-4 img {
+  border-radius: 10px;
+  border: 2px solid #ddb523;
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col-md-4 p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.table {
+  background-color: #f7a950;
+  border-radius: 5px;
+}
+
+h2.text-center {
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+h4 {
+  margin-bottom: 10px;
+}
+
+.col-md-6 {
+  background-color: #fbce84; 
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.col-md-6:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.gif-pequeno img {
+  max-width: 280px;  
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+}
+
+.row p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.footer-simple {
+  background-color: #ffffff; 
+  color: #000000;            
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.footer-simple h5 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.footer-simple p, .footer-simple a {
+  margin: 0;
+  font-size: 14px;
+  color: #000000;
+}
+
+.footer-simple a {
+  text-decoration: none;
+}
+
+.footer-simple a:hover {
+  text-decoration: underline;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: rgb(255, 232, 200) !important;
+  color: #000; 
+}
+
+.img-pequena {
+  max-width: 80px;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col-md-4 {
+  background-color: rgb(218, 168, 102); 
+  padding: 15px;             
+  border-radius: 10px;       
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1); 
+  margin-bottom: 20px;
+}
+
+.footer-simple .col-md-4 {
+  background-color: transparent !important;
+  box-shadow: none !important; 
+
+.navbar-custom {
+  background-color: #ffe39d; 
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+  color: #000000; 
+  font-weight: bold;
+}
+
+.navbar-custom .nav-link.active 
+{color: #000000; 
+}
