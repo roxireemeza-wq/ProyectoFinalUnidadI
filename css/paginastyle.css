@@ -118,6 +118,7 @@ body {
 .footer-simple .col-md-4 {
   background-color: transparent !important;
   box-shadow: none !important; 
+  }
 
 .navbar-custom {
   background-color: #ffe39d; 
@@ -131,4 +132,46 @@ body {
 
 .navbar-custom .nav-link.active 
 {color: #000000; 
+}
+ 
+
+/*ESTILOS PARA LA SEGUNDA ACTIVIDAD, ESTO ES LO NUEVO DEL DOM 
+*/
+
+.form-container {
+  max-width: 500px;
+  margin: auto;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card-product {
+  width: 250px;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.card-product img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 10px;
+}
+
+.delete-btn {
+  background: red;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 10px;
 }
